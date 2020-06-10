@@ -1,0 +1,14 @@
+@value colors: "Stylesheets/colors.css";
+@value nyt-mercury from colors;
+
+.article {
+  border-bottom: 1px solid nyt-mercury;
+  padding: 20px 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}

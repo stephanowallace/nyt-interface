@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article doesnt render image if null 1`] = `
+<div
+  className="container"
+>
+  <ArticlePublishDate
+    className="publishDate"
+    loading={false}
+  >
+    Dec 15, 2018
+  </ArticlePublishDate>
+  <div
+    className="content"
+  >
+    <LinkButton
+      className=""
+      disabled={false}
+      onClick={[Function]}
+    >
+      <ArticleTitle
+        className=""
+        loading={false}
+      >
+        title tst
+      </ArticleTitle>
+    </LinkButton>
+    <ArticleByLine
+      className=""
+      loading={false}
+    >
+      by Stéphano
+    </ArticleByLine>
+  </div>
+  <Responsive
+    sizes={
+      Object {
+        "extraSmall": 500,
+        "large": 1200,
+        "medium": 992,
+        "small": 768,
+      }
+    }
+  >
+    <Component />
+  </Responsive>
+</div>
+`;
+
+exports[`Article renders default state 1`] = `
+<div
+  className="container"
+>
+  <ArticlePublishDate
+    className="publishDate"
+    loading={false}
+  >
+    Dec 15, 2018
+  </ArticlePublishDate>
+  <div
+    className="content"
+  >
+    <LinkButton
+      className=""
+      disabled={false}
+      onClick={[Function]}
+    >
+      <ArticleTitle
+        className=""
+        loading={false}
+      >
+        title tst
+      </ArticleTitle>
+    </LinkButton>
+    <ArticleByLine
+      className=""
+      loading={false}
+    >
+      by Stéphano
+    </ArticleByLine>
+  </div>
+  <Responsive
+    sizes={
+      Object {
+        "extraSmall": 500,
+        "large": 1200,
+        "medium": 992,
+        "small": 768,
+      }
+    }
+  >
+    <Component />
+  </Responsive>
+</div>
+`;
+
+exports[`Article renders default state 2`] = `
+<div
+  className="container"
+>
+  <ArticlePublishDate
+    className="publishDate"
+    loading={false}
+  >
+    Dec 15, 2018
+  </ArticlePublishDate>
+  <div
+    className="content"
+  >
+    <LinkButton
+      className=""
+      disabled={false}
+      onClick={[Function]}
+    >
+      <ArticleTitle
+        className=""
+        loading={false}
+      >
+        title tst
+      </ArticleTitle>
+    </LinkButton>
+    <ArticleByLine
+      className=""
+      loading={false}
+    >
+      by Stéphano
+    </ArticleByLine>
+  </div>
+  <Responsive
+    sizes={
+      Object {
+        "extraSmall": 500,
+        "large": 1200,
+        "medium": 992,
+        "small": 768,
+      }
+    }
+  >
+    <Component />
+  </Responsive>
+</div>
+`;
+
+exports[`Article renders expanded content 1`] = `
+<div
+  className="container"
+>
+  <ArticlePublishDate
+    className="publishDate"
+    loading={false}
+  >
+    Dec 15, 2018
+  </ArticlePublishDate>
+  <div
+    className="content"
+  >
+    <LinkButton
+      className=""
+      disabled={false}
+      onClick={[Function]}
+    >
+      <ArticleTitle
+        className=""
+        loading={false}
+      >
+        title tst
+      </ArticleTitle>
+    </LinkButton>
+    <Paragraph
+      className=""
+    />
+    <Paragraph
+      className=""
+    >
+      abstract test
+      <span
+        className="externalLink"
+      >
+        <test-file-stub />
+        <Link
+          className=""
+          href="https://www.thoughtworks.com/"
+          target="_blank"
+          visited={true}
+        >
+          See full article
+        </Link>
+      </span>
+    </Paragraph>
+    <ArticleByLine
+      className=""
+      loading={false}
+    >
+      by Stéphano
+    </ArticleByLine>
+  </div>
+  <Responsive
+    sizes={
+      Object {
+        "extraSmall": 500,
+        "large": 1200,
+        "medium": 992,
+        "small": 768,
+      }
+    }
+  >
+    <Component />
+  </Responsive>
+</div>
+`;
+
+exports[`Article renders expanded content 2`] = `
+<div
+  className="container"
+>
+  <ArticlePublishDate
+    className="publishDate"
+    loading={false}
+  >
+    Dec 15, 2018
+  </ArticlePublishDate>
+  <div
+    className="content"
+  >
+    <LinkButton
+      className=""
+      disabled={false}
+      onClick={[Function]}
+    >
+      <ArticleTitle
+        className=""
+        loading={false}
+      >
+        title tst
+      </ArticleTitle>
+    </LinkButton>
+    <ArticleByLine
+      className=""
+      loading={false}
+    >
+      by Stéphano
+    </ArticleByLine>
+  </div>
+  <Responsive
+    sizes={
+      Object {
+        "extraSmall": 500,
+        "large": 1200,
+        "medium": 992,
+        "small": 768,
+      }
+    }
+  >
+    <Component />
+  </Responsive>
+</div>
+`;

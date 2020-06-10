@@ -1,0 +1,8 @@
+@value colors: "Stylesheets/colors.css";
+@value nyt-dusty-gray from colors;
+
+.container {
+  color: nyt-dusty-gray;
+  cursor: default;
+  font-family: Helvetica, arial, sans-serif;
+}

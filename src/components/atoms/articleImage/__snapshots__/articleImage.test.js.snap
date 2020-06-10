@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article image renders default state 1`] = `
+<figure
+  className=""
+>
+  <img
+    alt="test"
+    src="test"
+  />
+</figure>
+`;
+
+exports[`Article image renders loader 1`] = `
+<div
+  className=""
+>
+  <ContentLoader
+    className=""
+    height="75px"
+    width="75px"
+  />
+</div>
+`;

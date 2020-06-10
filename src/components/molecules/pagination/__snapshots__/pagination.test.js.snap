@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination render default state 1`] = `
+<div
+  className="pagination"
+>
+  <div
+    className="itemsPerPage"
+  >
+    <Select
+      className=""
+      onChange={[MockFunction]}
+      options={
+        Array [
+          Object {
+            "label": "5",
+            "value": "5",
+          },
+          Object {
+            "label": "10",
+            "value": "10",
+          },
+          Object {
+            "label": "20",
+            "value": "20",
+          },
+        ]
+      }
+      selectedValue={
+        Object {
+          "label": "",
+          "value": "",
+        }
+      }
+    />
+    <SecondaryText
+      className="itemsPerPageText"
+    >
+      <p>
+        items per page
+      </p>
+    </SecondaryText>
+  </div>
+  <nav>
+    <ul
+      className="list"
+    >
+      <li
+        className=""
+        key="1<"
+      >
+        <LinkButton
+          className=""
+          disabled={true}
+          onClick={[Function]}
+        >
+          &lt;
+        </LinkButton>
+      </li>
+      <li
+        className="selected"
+        key="11"
+      >
+        <LinkButton
+          className=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          1
+        </LinkButton>
+      </li>
+      <li
+        className=""
+        key="12"
+      >
+        <LinkButton
+          className=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          2
+        </LinkButton>
+      </li>
+      <li
+        className=""
+        key="13"
+      >
+        <LinkButton
+          className=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          3
+        </LinkButton>
+      </li>
+      <li
+        className=""
+        key="14"
+      >
+        <LinkButton
+          className=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          4
+        </LinkButton>
+      </li>
+      <li
+        className=""
+        key="15"
+      >
+        <LinkButton
+          className=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          5
+        </LinkButton>
+      </li>
+      <li
+        className=""
+        key="16"
+      >
+        <LinkButton
+          className=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          6
+        </LinkButton>
+      </li>
+      <li
+        className=""
+        key="17"
+      >
+        <LinkButton
+          className=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          7
+        </LinkButton>
+      </li>
+      <li
+        className=""
+        key="18"
+      >
+        <LinkButton
+          className=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          8
+        </LinkButton>
+      </li>
+      <li
+        className=""
+        key="19"
+      >
+        <LinkButton
+          className=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          9
+        </LinkButton>
+      </li>
+      <li
+        className=""
+        key="110"
+      >
+        <LinkButton
+          className=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          10
+        </LinkButton>
+      </li>
+      <li
+        className=""
+        key="1>"
+      >
+        <LinkButton
+          className=""
+          disabled={false}
+          onClick={[Function]}
+        >
+          &gt;
+        </LinkButton>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

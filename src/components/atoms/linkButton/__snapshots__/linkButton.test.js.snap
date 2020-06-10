@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link button renders default state 1`] = `
+<button
+  className="
+      linkButton
+      "
+  onClick={null}
+  type="button"
+>
+  test
+</button>
+`;

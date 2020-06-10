@@ -1,0 +1,30 @@
+@value colors: "Stylesheets/colors.css";
+@value nyt-mercury from colors;
+
+.list {
+  border-top: 1px solid nyt-mercury;
+  border-bottom: 2px solid black;
+  display: flex;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 0.6875rem;
+  list-style: none;
+  padding: 9px 0 7px;
+}
+
+.list li {
+  border-left: 1px solid nyt-mercury;
+  padding: 0 8px;
+}
+
+.list li:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+.list li:last-child {
+  padding-right: 0;
+}
+
+.navLink {
+  text-transform: uppercase;
+}

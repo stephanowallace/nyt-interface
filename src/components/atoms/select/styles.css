@@ -1,0 +1,9 @@
+@value colors: "Stylesheets/colors.css";
+@value nyt-mercury from colors;
+
+.container {
+  align-items: center;
+  display: flex;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 0.6875rem;
+}

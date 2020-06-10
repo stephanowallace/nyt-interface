@@ -1,0 +1,45 @@
+@value colors: "Stylesheets/colors.css";
+@value nyt-blue from colors;
+
+.container {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+}
+
+.externalLink {
+  display: block;
+  margin-top: 6px;
+}
+
+.externalLink svg{
+  fill: nyt-blue;
+  height: 11px;
+  margin-right: 4px;
+  width: 11px;
+}
+
+.image {
+  margin: 0 0 0 40px;
+}
+
+.publishDate {
+  line-height: 1.4375rem;
+  width: 125px;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image {
+    margin: 20px auto 0;
+  }
+
+  .publishDate {
+    margin-bottom: 12px;
+  }
+}

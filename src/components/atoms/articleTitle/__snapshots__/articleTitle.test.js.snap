@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article title renders default state 1`] = `
+<h2
+  className="title "
+>
+  test
+</h2>
+`;
+
+exports[`Article title renders loader 1`] = `
+<ContentLoader
+  className="title"
+  height="26px"
+  width="300px"
+/>
+`;

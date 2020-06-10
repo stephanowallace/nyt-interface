@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CenterContent Renders default state 1`] = `
+<Fragment>
+  <div
+    className="body"
+  >
+    <div>
+      content
+    </div>
+  </div>
+</Fragment>
+`;

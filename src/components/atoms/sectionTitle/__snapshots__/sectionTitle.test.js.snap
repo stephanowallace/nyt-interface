@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section title renders default state 1`] = `
+<h1
+  className="title "
+>
+  test
+</h1>
+`;
+
+exports[`Section title renders loader 1`] = `
+<h1
+  className="title "
+>
+  test
+</h1>
+`;

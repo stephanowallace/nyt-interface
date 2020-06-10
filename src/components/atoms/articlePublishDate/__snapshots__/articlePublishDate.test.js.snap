@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article publish date renders default state 1`] = `
+<SecondaryText
+  className=""
+>
+  <time
+    className="publishDate"
+  >
+    Dec 15, 2018
+  </time>
+</SecondaryText>
+`;
+
+exports[`Article publish date renders loader 1`] = `
+<span
+  className=""
+>
+  <ContentLoader
+    className=""
+    height="11px"
+    width="80px"
+  />
+</span>
+`;

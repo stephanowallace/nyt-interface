@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content loader Renders default state 1`] = `
+<div
+  className="container "
+  style={
+    Object {
+      "height": "150px",
+      "width": "150px",
+    }
+  }
+>
+  <div
+    className="loader"
+  />
+</div>
+`;

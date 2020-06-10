@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for pages/section/__fixtures__/articles.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">pages/section/__fixtures__</a> articles.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/1</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" >module.exports = [</span>
+  {
+    section: 'Science',
+    subsection: '',
+    title: 'A Bright Green u2018Christmas Cometu2019 Will Fly the Closest to Earth in Centuries',
+    abstract: 'The comet, called 46P/Wirtanen, will streak near Earth on Sunday and be visible in some places with the naked eye.',
+    url: 'https://www.nytimes.com/2018/12/15/science/green-comet-46p-wirtanen.html',
+    byline: 'By CHRISTINA CARON',
+    item_type: 'Article',
+    updated_date: '2018-12-15T19:28:59-05:00',
+    created_date: '2018-12-15T14:09:49-05:00',
+    published_date: '2018-12-15T14:09:49-05:00',
+    material_type_facet: '',
+    kicker: '',
+    des_facet: [
+      'Comets',
+      '46P/Wirtanen',
+      'Space and Astronomy',
+    ],
+    org_facet: [
+      'National Aeronautics and Space Administration',
+    ],
+    per_facet: [],
+    geo_facet: [],
+    multimedia: [
+      {
+        url: 'https://static01.nyt.com/images/2018/12/16/autossell/16xp-comet/16xp-comet-thumbStandard.jpg',
+        format: 'Standard Thumbnail',
+        height: 75,
+        width: 75,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'The comet 46P/Wirtanen as seen from France through a telescope this month.',
+        copyright: 'Nicolas Biver/Agence France-Presse u2014 Getty Images',
+      },
+      {
+        url: 'https://static01.nyt.com/images/2018/12/16/autossell/16xp-comet/16xp-comet-thumbLarge.jpg',
+        format: 'thumbLarge',
+        height: 150,
+        width: 150,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'The comet 46P/Wirtanen as seen from France through a telescope this month.',
+        copyright: 'Nicolas Biver/Agence France-Presse u2014 Getty Images',
+      },
+      {
+        url: 'https://static01.nyt.com/images/2018/12/16/autossell/16xp-comet/16xp-comet-articleInline.jpg',
+        format: 'Normal',
+        height: 127,
+        width: 190,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'The comet 46P/Wirtanen as seen from France through a telescope this month.',
+        copyright: 'Nicolas Biver/Agence France-Presse u2014 Getty Images',
+      },
+      {
+        url: 'https://static01.nyt.com/images/2018/12/16/autossell/16xp-comet/merlin_148053384_83232fbc-01e3-4452-aa60-cc085f53bf69-mediumThreeByTwo210.jpg',
+        format: 'mediumThreeByTwo210',
+        height: 140,
+        width: 210,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'The comet 46P/Wirtanen as seen from France through a telescope this month.',
+        copyright: 'Nicolas Biver/Agence France-Presse u2014 Getty Images',
+      },
+      {
+        url: 'https://static01.nyt.com/images/2018/12/16/autossell/16xp-comet/16xp-comet-superJumbo.jpg',
+        format: 'superJumbo',
+        height: 1365,
+        width: 2048,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'The comet 46P/Wirtanen as seen from France through a telescope this month.',
+        copyright: 'Nicolas Biver/Agence France-Presse u2014 Getty Images',
+      },
+    ],
+    short_url: 'https://nyti.ms/2En2PqK',
+  },
+  {
+    section: 'Science',
+    subsection: '',
+    title: 'A Salamander of Legend Emerges From Southern Swamps',
+    abstract: 'The reticulated siren is the largest vertebrate discovered in the United States in decades.',
+    url: 'https://www.nytimes.com/2018/12/14/science/salamander-reticulated-siren.html',
+    byline: 'By ASHER ELBEIN',
+    item_type: 'Article',
+    updated_date: '2018-12-14T13:01:09-05:00',
+    created_date: '2018-12-14T13:01:09-05:00',
+    published_date: '2018-12-14T13:01:09-05:00',
+    material_type_facet: '',
+    kicker: '',
+    des_facet: [
+      'Salamanders',
+      'Amphibians',
+      'Biology and Biochemistry',
+      'Reptiles',
+    ],
+    org_facet: [],
+    per_facet: [],
+    geo_facet: [
+      'Alabama',
+      'Florida',
+    ],
+    multimedia: [
+      {
+        url: 'https://static01.nyt.com/images/2018/12/18/science/18SCI-SALAMANDER1/18SCI-SALAMANDER1-thumbStandard-v2.jpg',
+        format: 'Standard Thumbnail',
+        height: 75,
+        width: 75,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'The newest named salamander in the animal kingdom: the reticulated siren.',
+        copyright: 'David Steen',
+      },
+      {
+        url: 'https://static01.nyt.com/images/2018/12/18/science/18SCI-SALAMANDER1/18SCI-SALAMANDER1-thumbLarge-v2.jpg',
+        format: 'thumbLarge',
+        height: 150,
+        width: 150,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'The newest named salamander in the animal kingdom: the reticulated siren.',
+        copyright: 'David Steen',
+      },
+      {
+        url: 'https://static01.nyt.com/images/2018/12/18/science/18SCI-SALAMANDER1/18SCI-SALAMANDER1-articleInline-v2.jpg',
+        format: 'Normal',
+        height: 127,
+        width: 190,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'The newest named salamander in the animal kingdom: the reticulated siren.',
+        copyright: 'David Steen',
+      },
+      {
+        url: 'https://static01.nyt.com/images/2018/12/18/science/18SCI-SALAMANDER1/18SCI-SALAMANDER1-mediumThreeByTwo210-v2.jpg',
+        format: 'mediumThreeByTwo210',
+        height: 140,
+        width: 210,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'The newest named salamander in the animal kingdom: the reticulated siren.',
+        copyright: 'David Steen',
+      },
+      {
+        url: 'https://static01.nyt.com/images/2018/12/18/science/18SCI-SALAMANDER1/18SCI-SALAMANDER1-superJumbo-v2.jpg',
+        format: 'superJumbo',
+        height: 1365,
+        width: 2048,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'The newest named salamander in the animal kingdom: the reticulated siren.',
+        copyright: 'David Steen',
+      },
+    ],
+    short_url: 'https://nyti.ms/2zYXp2d',
+  },
+  {
+    section: 'Science',
+    subsection: '',
+    title: 'One of Natureu2019s Smallest Flowering Plants Can Survive Inside of a Duck',
+    abstract: 'If one duckweed lands where a bird relieves itself, itu2019s capable of eventually creating a dense mat of duckweeds where there were none before.',
+    url: 'https://www.nytimes.com/2018/12/14/science/duckweed-duck-poop.html',
+    byline: 'By VERONIQUE GREENWOOD',
+    item_type: 'Article',
+    updated_date: '2018-12-14T09:32:51-05:00',
+    created_date: '2018-12-14T09:32:50-05:00',
+    published_date: '2018-12-14T09:32:50-05:00',
+    material_type_facet: '',
+    kicker: '',
+    des_facet: [
+      'Flowers and Plants',
+      'Invasive Species',
+      'Weeds',
+      'Birds',
+      'Ducks',
+      'Feces',
+      'Wetlands',
+    ],
+    org_facet: [
+      'Biology Letters (Journal)',
+    ],
+    per_facet: [
+      'Green, Andy',
+      'Silva, Giliandro',
+    ],
+    geo_facet: [
+      'Brazil',
+      'Great Britain',
+      'Spain',
+    ],
+    multimedia: [
+      {
+        url: 'https://static01.nyt.com/images/2018/12/15/science/15TB-DUCKWEED1/15TB-DUCKWEED1-thumbStandard.jpg',
+        format: 'Standard Thumbnail',
+        height: 75,
+        width: 75,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'Duckweed, and a duck, on a pond in Germany.',
+        copyright: 'Kay Nietfeld/DPA, via Getty Images',
+      },
+      {
+        url: 'https://static01.nyt.com/images/2018/12/15/science/15TB-DUCKWEED1/15TB-DUCKWEED1-thumbLarge.jpg',
+        format: 'thumbLarge',
+        height: 150,
+        width: 150,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'Duckweed, and a duck, on a pond in Germany.',
+        copyright: 'Kay Nietfeld/DPA, via Getty Images',
+      },
+      {
+        url: 'https://static01.nyt.com/images/2018/12/15/science/15TB-DUCKWEED1/15TB-DUCKWEED1-articleInline.jpg',
+        format: 'Normal',
+        height: 126,
+        width: 190,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'Duckweed, and a duck, on a pond in Germany.',
+        copyright: 'Kay Nietfeld/DPA, via Getty Images',
+      },
+      {
+        url: 'https://static01.nyt.com/images/2018/12/15/science/15TB-DUCKWEED1/15TB-DUCKWEED1-mediumThreeByTwo210.jpg',
+        format: 'mediumThreeByTwo210',
+        height: 140,
+        width: 210,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'Duckweed, and a duck, on a pond in Germany.',
+        copyright: 'Kay Nietfeld/DPA, via Getty Images',
+      },
+      {
+        url: 'https://static01.nyt.com/images/2018/12/15/science/15TB-DUCKWEED1/15TB-DUCKWEED1-superJumbo.jpg',
+        format: 'superJumbo',
+        height: 1364,
+        width: 2048,
+        type: 'image',
+        subtype: 'photo',
+        caption: 'Duckweed, and a duck, on a pond in Germany.',
+        copyright: 'Kay Nietfeld/DPA, via Getty Images',
+      },
+    ],
+    short_url: 'https://nyti.ms/2A0qiLp',
+  },
+];
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Dec 17 2018 15:25:24 GMT-0200 (Brasilia Summer Time)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

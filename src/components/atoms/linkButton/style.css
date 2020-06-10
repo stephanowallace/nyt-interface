@@ -1,0 +1,17 @@
+@value colors: "Stylesheets/colors.css";
+@value nyt-blue from colors;
+
+.linkButton {
+  background-color: transparent;
+  border: none;
+  color: black;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+}
+
+.linkButton:hover {
+  text-decoration: underline;
+}

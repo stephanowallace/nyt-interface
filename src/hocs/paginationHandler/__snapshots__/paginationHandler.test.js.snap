@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginationHandler render default state 1`] = `
+<baseComponent
+  pagination={
+    Object {
+      "data": Object {
+        "numberOfPages": 1,
+        "pageNumber": 1,
+        "pageSize": 10,
+        "paginatedContent": Array [
+          Object {
+            "byLine": "",
+            "publishDate": "",
+            "short_url": 0,
+            "title": "",
+            "url": "",
+          },
+          Object {
+            "byLine": "",
+            "publishDate": "",
+            "short_url": 1,
+            "title": "",
+            "url": "",
+          },
+          Object {
+            "byLine": "",
+            "publishDate": "",
+            "short_url": 2,
+            "title": "",
+            "url": "",
+          },
+          Object {
+            "byLine": "",
+            "publishDate": "",
+            "short_url": 3,
+            "title": "",
+            "url": "",
+          },
+          Object {
+            "byLine": "",
+            "publishDate": "",
+            "short_url": 4,
+            "title": "",
+            "url": "",
+          },
+          Object {
+            "byLine": "",
+            "publishDate": "",
+            "short_url": 5,
+            "title": "",
+            "url": "",
+          },
+          Object {
+            "byLine": "",
+            "publishDate": "",
+            "short_url": 6,
+            "title": "",
+            "url": "",
+          },
+          Object {
+            "byLine": "",
+            "publishDate": "",
+            "short_url": 7,
+            "title": "",
+            "url": "",
+          },
+          Object {
+            "byLine": "",
+            "publishDate": "",
+            "short_url": 8,
+            "title": "",
+            "url": "",
+          },
+          Object {
+            "byLine": "",
+            "publishDate": "",
+            "short_url": 9,
+            "title": "",
+            "url": "",
+          },
+        ],
+      },
+      "setContent": [Function],
+      "setPageNumber": [Function],
+      "setPageSize": [Function],
+    }
+  }
+/>
+`;

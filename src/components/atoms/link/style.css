@@ -1,0 +1,18 @@
+@value colors: "Stylesheets/colors.css";
+@value nyt-blue from colors;
+
+.link {
+  color: black;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+.link.visited {
+  color: nyt-blue;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article ByLine renders content 1`] = `
+<div
+  class="byLine "
+>
+  <span
+    class="container "
+  >
+    test
+  </span>
+</div>
+`;
+
+exports[`Article ByLine renders loader 1`] = `
+<div
+  class="byLine "
+>
+  <div
+    class="container "
+    style="width:100px;height:11px"
+  >
+    <div
+      class="loader"
+    />
+  </div>
+</div>
+`;

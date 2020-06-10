@@ -1,0 +1,10 @@
+@value colors: "Stylesheets/colors.css";
+@value nyt-dark-black from colors;
+
+.abstract {
+  color: nyt-dark-black;
+  cursor: default;
+  font-size: .875rem;
+  line-height: 1.1875rem;
+}
+

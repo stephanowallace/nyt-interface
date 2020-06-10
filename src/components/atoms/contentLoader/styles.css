@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .loader {
+  float: left;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background: #ccc linear-gradient(90deg, #ddd 0px, #e8e8e8 25%, #ddd 90%);
+  background-size: 200%;
+  animation: shine-target 2s infinite linear;
+}
+
+@keyframes shine-target {
+  0% {
+    background-position: 100%;
+  }
+  40% {
+    background-position: -100%;
+  }
+  100% {
+    background-position: -300%;
+  }
+}

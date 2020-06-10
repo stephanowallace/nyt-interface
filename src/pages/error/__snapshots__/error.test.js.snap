@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error renders default state 1`] = `
+<CenterContent>
+  <PageHeader
+    title="Error"
+  />
+  <div
+    className="content"
+  >
+    <test-file-stub />
+    <Paragraph
+      className=""
+    >
+      Something unexpected happened
+    </Paragraph>
+    <SecondaryText
+      className=""
+    >
+      Please, try again later
+    </SecondaryText>
+  </div>
+</CenterContent>
+`;

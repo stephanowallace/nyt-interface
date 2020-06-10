@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select renders default state 1`] = `
+<div
+  className="container "
+>
+  <StateManager
+    components={
+      Object {
+        "DropdownIndicator": null,
+        "IndicatorSeparator": null,
+      }
+    }
+    defaultInputValue=""
+    defaultMenuIsOpen={false}
+    defaultValue={null}
+    menuPlacement="top"
+    onChange={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "label": "1",
+          "value": "1",
+        },
+        Object {
+          "label": "2",
+          "value": "2",
+        },
+        Object {
+          "label": "3",
+          "value": "3",
+        },
+        Object {
+          "label": "4",
+          "value": "4",
+        },
+      ]
+    }
+    placeholder=""
+    styles={
+      Object {
+        "control": [Function],
+      }
+    }
+    value={
+      Object {
+        "label": "1",
+        "value": "1",
+      }
+    }
+  />
+</div>
+`;

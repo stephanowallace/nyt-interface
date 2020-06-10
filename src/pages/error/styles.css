@@ -1,0 +1,12 @@
+.content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.content svg {
+  height: 100px;
+  width: 100px;
+}

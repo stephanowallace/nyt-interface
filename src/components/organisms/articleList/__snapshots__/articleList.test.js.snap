@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article list Renders default state 1`] = `
+<ol
+  className="list"
+>
+  <li
+    className="article"
+    key="Science-https://nyti.ms/2En2PqK"
+  >
+    <Article
+      abstract="The comet, called 46P/Wirtanen, will streak near Earth on Sunday and be visible in some places with the naked eye."
+      byLine="By CHRISTINA CARON"
+      kicker=""
+      loading={false}
+      multiSizesImage={
+        Array [
+          Object {
+            "caption": "The comet 46P/Wirtanen as seen from France through a telescope this month.",
+            "copyright": "Nicolas Biver/Agence France-Presse u2014 Getty Images",
+            "format": "Standard Thumbnail",
+            "height": 75,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/16/autossell/16xp-comet/16xp-comet-thumbStandard.jpg",
+            "width": 75,
+          },
+          Object {
+            "caption": "The comet 46P/Wirtanen as seen from France through a telescope this month.",
+            "copyright": "Nicolas Biver/Agence France-Presse u2014 Getty Images",
+            "format": "thumbLarge",
+            "height": 150,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/16/autossell/16xp-comet/16xp-comet-thumbLarge.jpg",
+            "width": 150,
+          },
+          Object {
+            "caption": "The comet 46P/Wirtanen as seen from France through a telescope this month.",
+            "copyright": "Nicolas Biver/Agence France-Presse u2014 Getty Images",
+            "format": "Normal",
+            "height": 127,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/16/autossell/16xp-comet/16xp-comet-articleInline.jpg",
+            "width": 190,
+          },
+          Object {
+            "caption": "The comet 46P/Wirtanen as seen from France through a telescope this month.",
+            "copyright": "Nicolas Biver/Agence France-Presse u2014 Getty Images",
+            "format": "mediumThreeByTwo210",
+            "height": 140,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/16/autossell/16xp-comet/merlin_148053384_83232fbc-01e3-4452-aa60-cc085f53bf69-mediumThreeByTwo210.jpg",
+            "width": 210,
+          },
+          Object {
+            "caption": "The comet 46P/Wirtanen as seen from France through a telescope this month.",
+            "copyright": "Nicolas Biver/Agence France-Presse u2014 Getty Images",
+            "format": "superJumbo",
+            "height": 1365,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/16/autossell/16xp-comet/16xp-comet-superJumbo.jpg",
+            "width": 2048,
+          },
+        ]
+      }
+      publishDate="Dec 15, 2018"
+      title="A Bright Green u2018Christmas Cometu2019 Will Fly the Closest to Earth in Centuries"
+      url="https://www.nytimes.com/2018/12/15/science/green-comet-46p-wirtanen.html"
+    />
+  </li>
+  <li
+    className="article"
+    key="Science-https://nyti.ms/2zYXp2d"
+  >
+    <Article
+      abstract="The reticulated siren is the largest vertebrate discovered in the United States in decades."
+      byLine="By ASHER ELBEIN"
+      kicker=""
+      loading={false}
+      multiSizesImage={
+        Array [
+          Object {
+            "caption": "The newest named salamander in the animal kingdom: the reticulated siren.",
+            "copyright": "David Steen",
+            "format": "Standard Thumbnail",
+            "height": 75,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/18/science/18SCI-SALAMANDER1/18SCI-SALAMANDER1-thumbStandard-v2.jpg",
+            "width": 75,
+          },
+          Object {
+            "caption": "The newest named salamander in the animal kingdom: the reticulated siren.",
+            "copyright": "David Steen",
+            "format": "thumbLarge",
+            "height": 150,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/18/science/18SCI-SALAMANDER1/18SCI-SALAMANDER1-thumbLarge-v2.jpg",
+            "width": 150,
+          },
+          Object {
+            "caption": "The newest named salamander in the animal kingdom: the reticulated siren.",
+            "copyright": "David Steen",
+            "format": "Normal",
+            "height": 127,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/18/science/18SCI-SALAMANDER1/18SCI-SALAMANDER1-articleInline-v2.jpg",
+            "width": 190,
+          },
+          Object {
+            "caption": "The newest named salamander in the animal kingdom: the reticulated siren.",
+            "copyright": "David Steen",
+            "format": "mediumThreeByTwo210",
+            "height": 140,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/18/science/18SCI-SALAMANDER1/18SCI-SALAMANDER1-mediumThreeByTwo210-v2.jpg",
+            "width": 210,
+          },
+          Object {
+            "caption": "The newest named salamander in the animal kingdom: the reticulated siren.",
+            "copyright": "David Steen",
+            "format": "superJumbo",
+            "height": 1365,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/18/science/18SCI-SALAMANDER1/18SCI-SALAMANDER1-superJumbo-v2.jpg",
+            "width": 2048,
+          },
+        ]
+      }
+      publishDate="Dec 14, 2018"
+      title="A Salamander of Legend Emerges From Southern Swamps"
+      url="https://www.nytimes.com/2018/12/14/science/salamander-reticulated-siren.html"
+    />
+  </li>
+  <li
+    className="article"
+    key="Science-https://nyti.ms/2A0qiLp"
+  >
+    <Article
+      abstract="If one duckweed lands where a bird relieves itself, itu2019s capable of eventually creating a dense mat of duckweeds where there were none before."
+      byLine="By VERONIQUE GREENWOOD"
+      kicker=""
+      loading={false}
+      multiSizesImage={
+        Array [
+          Object {
+            "caption": "Duckweed, and a duck, on a pond in Germany.",
+            "copyright": "Kay Nietfeld/DPA, via Getty Images",
+            "format": "Standard Thumbnail",
+            "height": 75,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/15/science/15TB-DUCKWEED1/15TB-DUCKWEED1-thumbStandard.jpg",
+            "width": 75,
+          },
+          Object {
+            "caption": "Duckweed, and a duck, on a pond in Germany.",
+            "copyright": "Kay Nietfeld/DPA, via Getty Images",
+            "format": "thumbLarge",
+            "height": 150,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/15/science/15TB-DUCKWEED1/15TB-DUCKWEED1-thumbLarge.jpg",
+            "width": 150,
+          },
+          Object {
+            "caption": "Duckweed, and a duck, on a pond in Germany.",
+            "copyright": "Kay Nietfeld/DPA, via Getty Images",
+            "format": "Normal",
+            "height": 126,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/15/science/15TB-DUCKWEED1/15TB-DUCKWEED1-articleInline.jpg",
+            "width": 190,
+          },
+          Object {
+            "caption": "Duckweed, and a duck, on a pond in Germany.",
+            "copyright": "Kay Nietfeld/DPA, via Getty Images",
+            "format": "mediumThreeByTwo210",
+            "height": 140,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/15/science/15TB-DUCKWEED1/15TB-DUCKWEED1-mediumThreeByTwo210.jpg",
+            "width": 210,
+          },
+          Object {
+            "caption": "Duckweed, and a duck, on a pond in Germany.",
+            "copyright": "Kay Nietfeld/DPA, via Getty Images",
+            "format": "superJumbo",
+            "height": 1364,
+            "subtype": "photo",
+            "type": "image",
+            "url": "https://static01.nyt.com/images/2018/12/15/science/15TB-DUCKWEED1/15TB-DUCKWEED1-superJumbo.jpg",
+            "width": 2048,
+          },
+        ]
+      }
+      publishDate="Dec 14, 2018"
+      title="One of Natureu2019s Smallest Flowering Plants Can Survive Inside of a Duck"
+      url="https://www.nytimes.com/2018/12/14/science/duckweed-duck-poop.html"
+    />
+  </li>
+</ol>
+`;

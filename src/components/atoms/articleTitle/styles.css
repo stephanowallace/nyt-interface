@@ -1,0 +1,10 @@
+@value colors: "Stylesheets/colors.css";
+@value nyt-dark-black from colors;
+
+.title {
+  color: nyt-dark-black;
+  font-family: Georgia, serif;
+  font-size: 1.4375rem;
+  font-weight: 200;
+  margin: 0 0 7px;
+}

@@ -1,0 +1,39 @@
+@value colors: "Stylesheets/colors.css";
+@value nyt-mercury from colors;
+
+.itemsPerPage {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.itemsPerPageText {
+  display: flex;
+}
+
+.itemsPerPage p {
+  font-size: .75rem;
+  margin: auto 8px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  padding: 0;
+}
+
+.list li button {
+  border: 1px solid nyt-mercury;
+  font-size: .75rem;
+  margin-left: -1px;
+  padding: 6px 10px;
+}
+
+.list li.selected button {
+  text-decoration: underline;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+}

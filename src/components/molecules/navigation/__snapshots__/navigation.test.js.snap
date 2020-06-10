@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation renders default state 1`] = `
+<nav>
+  <ol
+    className="list"
+  >
+    <li
+      key="sciencetechnology"
+    >
+      <LinkButton
+        className="navLink"
+        disabled={false}
+        onClick={[Function]}
+      >
+        science & technology
+      </LinkButton>
+    </li>
+    <li
+      key="health"
+    >
+      <LinkButton
+        className="navLink"
+        disabled={false}
+        onClick={[Function]}
+      >
+        health
+      </LinkButton>
+    </li>
+    <li
+      key="politics"
+    >
+      <LinkButton
+        className="navLink"
+        disabled={false}
+        onClick={[Function]}
+      >
+        politics
+      </LinkButton>
+    </li>
+    <li
+      key="world"
+    >
+      <LinkButton
+        className="navLink"
+        disabled={false}
+        onClick={[Function]}
+      >
+        world
+      </LinkButton>
+    </li>
+  </ol>
+</nav>
+`;
