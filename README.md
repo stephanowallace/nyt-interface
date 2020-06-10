@@ -1,4 +1,4 @@
-# ThoughtWorks - Teste para desenvolvedor Front-end
+# NYT Custom interface
 
 Primeiramente, será necessário instalar as dependências do projeto. Para isto, basta executar o comando:
 
