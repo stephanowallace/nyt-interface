@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "babel-core": "^6.26.3",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "prop-types": "^15.6.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
